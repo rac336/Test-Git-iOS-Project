@@ -21,6 +21,7 @@
 		E0FBF3AD18F4F1CE009CE12C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FBF38F18F4F1CD009CE12C /* UIKit.framework */; };
 		E0FBF3B518F4F1CE009CE12C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0FBF3B318F4F1CE009CE12C /* InfoPlist.strings */; };
 		E0FBF3B718F4F1CE009CE12C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FBF3B618F4F1CE009CE12C /* Git_TestTests.m */; };
+		E0FBF3C218F4F55A009CE12C /* RCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FBF3C118F4F55A009CE12C /* RCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E0FBF3B218F4F1CE009CE12C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		E0FBF3B418F4F1CE009CE12C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0FBF3B618F4F1CE009CE12C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		E0FBF3C018F4F55A009CE12C /* RCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTest.h; sourceTree = "<group>"; };
+		E0FBF3C118F4F55A009CE12C /* RCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				E0FBF39D18F4F1CD009CE12C /* Main.storyboard */,
 				E0FBF3A018F4F1CD009CE12C /* RCViewController.h */,
 				E0FBF3A118F4F1CD009CE12C /* RCViewController.m */,
+				E0FBF3C018F4F55A009CE12C /* RCTest.h */,
+				E0FBF3C118F4F55A009CE12C /* RCTest.m */,
 				E0FBF3A318F4F1CD009CE12C /* Images.xcassets */,
 				E0FBF39218F4F1CD009CE12C /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0FBF3C218F4F55A009CE12C /* RCTest.m in Sources */,
 				E0FBF39818F4F1CD009CE12C /* main.m in Sources */,
 				E0FBF39C18F4F1CD009CE12C /* RCAppDelegate.m in Sources */,
 				E0FBF3A218F4F1CD009CE12C /* RCViewController.m in Sources */,
